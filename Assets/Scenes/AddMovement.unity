@@ -307,7 +307,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -322,11 +322,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 186992361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f096c36935b9ae94d8179bcc38578403, type: 3}
+  m_Script: {fileID: 11500000, guid: 766fb91950038aa48840f134636e7ec3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 300
-  y: 150
+  rigidbody2D: {fileID: 186992365}
+  speed: 10
+  upButton: 119
+  downButton: 115
+  rightButton: 100
+  leftButton: 97
+  x: 9
+  y: 9
 --- !u!1 &241127261
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,8 +343,8 @@ GameObject:
   m_Component:
   - component: {fileID: 241127265}
   - component: {fileID: 241127264}
-  - component: {fileID: 241127263}
   - component: {fileID: 241127262}
+  - component: {fileID: 241127263}
   m_Layer: 0
   m_Name: Border (3)
   m_TagString: Untagged
@@ -380,7 +386,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241127261}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -465,8 +471,8 @@ GameObject:
   m_Component:
   - component: {fileID: 409751538}
   - component: {fileID: 409751537}
-  - component: {fileID: 409751536}
   - component: {fileID: 409751535}
+  - component: {fileID: 409751536}
   m_Layer: 0
   m_Name: Border (1)
   m_TagString: Untagged
@@ -508,7 +514,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409751534}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -593,8 +599,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1477008429}
   - component: {fileID: 1477008428}
-  - component: {fileID: 1477008431}
   - component: {fileID: 1477008430}
+  - component: {fileID: 1477008431}
   m_Layer: 0
   m_Name: Border
   m_TagString: Untagged
@@ -698,7 +704,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477008427}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -721,8 +727,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1867344121}
   - component: {fileID: 1867344120}
-  - component: {fileID: 1867344119}
   - component: {fileID: 1867344118}
+  - component: {fileID: 1867344119}
   m_Layer: 0
   m_Name: Border (2)
   m_TagString: Untagged
@@ -764,7 +770,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867344117}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
