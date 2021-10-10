@@ -12,10 +12,6 @@ public class MovementControl : MonoBehaviour
     public KeyCode downButton = KeyCode.DownArrow;
     public KeyCode rightButton = KeyCode.RightArrow;
     public KeyCode leftButton = KeyCode.LeftArrow;
-
-    public float x = 9.0f;
-
-    public float y = 9.0f;
     
     // Update is called once per frame
     void Update()
