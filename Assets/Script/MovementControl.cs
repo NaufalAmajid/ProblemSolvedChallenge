@@ -8,6 +8,8 @@ public class MovementControl : MonoBehaviour
 
     public float speed = 10.0f;
 
+    public SpawnerControl spawn;
+
     public KeyCode upButton = KeyCode.UpArrow;
     public KeyCode downButton = KeyCode.DownArrow;
     public KeyCode rightButton = KeyCode.RightArrow;
@@ -50,5 +52,6 @@ public class MovementControl : MonoBehaviour
         rigidbody2D.velocity = velocity;
 
     }
+
 
 }
