@@ -44,7 +44,7 @@ public class SpawnerControl : MonoBehaviour
 
     public void destroyObject(){
 
-        foreach (GameObject o in GameObject.FindGameObjectsWithTag("spawnObject"))
+        foreach(GameObject o in GameObject.FindGameObjectsWithTag("spawnObject"))
         {
             Debug.Log("Destroy");
         }
